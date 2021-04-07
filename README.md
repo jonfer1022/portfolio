@@ -1,2 +1,2 @@
 # portfolio
-Creación de mi portafolio personal.
+Creación de mi portafolio personal
