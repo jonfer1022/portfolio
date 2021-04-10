@@ -1,19 +1,37 @@
 import React from 'react';
-import './styles/home.scss';
+import './styles/experience.scss';
+import Card from './Card';
 
 function Experience() {
   return(
     <div id="experience">
-      <div className="presentation-div">
-        <h1 className="presentation-text">
-          !HOLA!<br/>
-          Soy Jonathan Amaya.<br/>
-          Software Developer
-        </h1>
-      </div>
-      <div className="presentation-img">
-        <img src="https://cdn0.iconfinder.com/data/icons/team-and-management-glyph/160/coding-team-512.png" />
-      </div>
+      <Card
+        _key = {1}
+        title = "SOPHOS SOLUTIONS SAS"
+        body = {
+          <p>Empresa de tecnología dedicada al diseño y sotfware de aplicación web</p>
+        }
+        footer = "Febrero del 2020 - al presente. Bogotá D.C"
+      />
+      <Card
+        _key = {2}
+        title = "INFO DESING COLOMBIA"
+        body = {
+          <div>
+            <p>Ingeniero de aplicaciones</p>
+            <p>Empresa de tecnología enfocada en el manejo de información en la automatización de proyectos industriales como el sector petrolero, aceite y gas.</p>
+          </div>
+        }
+        footer = "Febrero del 2020 - al presente. Bogotá D.C"
+      />
+      <Card
+        _key = {3}
+        title = "SOPHOS SOLUTIONS SAS"
+        body = {
+          <p>Empresa de tecnología dedicada al diseño y sotfware de aplicación web</p>
+        }
+        footer = "Febrero del 2020 - al presente. Bogotá D.C"
+      />
     </div>
   )
 }

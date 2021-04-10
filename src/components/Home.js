@@ -12,7 +12,7 @@ function Home() {
         </h1>
       </div>
       <div className="presentation-img">
-        <img src="https://cdn0.iconfinder.com/data/icons/team-and-management-glyph/160/coding-team-512.png" />
+        <img src="https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/me.png" />
       </div>
     </div>
   )
