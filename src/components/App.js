@@ -1,13 +1,21 @@
 import React, { Fragment } from 'react';
 import NavBar from './NavBar';
-import { Image } from 'react-bootstrap';
+import Home from './Home';
+import About_me from './AboutMe';
+import Education from './Education';
+import ContactMe from './ContactMe';
+import Experience from './Experience';
+// import { Image } from 'react-bootstrap';
 
 function App(){
   return(
     <Fragment>
       <NavBar />
-      <Image src='../images/me.jpeg'/>
-      {/* <img src='me.jpeg'></img> */}
+      <Home />
+      <About_me />
+      <Education />
+      <ContactMe />
+      <Experience />
     </Fragment>
   )
 }

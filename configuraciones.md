@@ -6,3 +6,5 @@ npm i @mdi/react @mdi/js
 npm install node-sass 
 <!-- to use bootstrap -->
 npm install react-bootstrap 
+<!-- It's necessary for moving between sections -->
+npm install react-scroll
