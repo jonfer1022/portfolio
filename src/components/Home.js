@@ -6,7 +6,7 @@ function Home() {
     <div id="home">
       <div className="presentation-div">
         <h1 className="presentation-text">
-          !HOLA!<br/>
+          ¡HOLA!<br/>
           Soy Jonathan Amaya.<br/>
           Software Developer
         </h1>

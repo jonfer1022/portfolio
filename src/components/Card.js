@@ -7,7 +7,7 @@ function Card(props) {
   
   return(
     <div
-      style={ even !== 0 ? {float: 'left'} : {float: 'right'} }
+      style={ even === 0 ? {marginLeft: '15%'} : {} }
       className="card-main"
     >
       <div className="header">{title}</div>

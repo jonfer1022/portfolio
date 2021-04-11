@@ -8,3 +8,5 @@ npm install node-sass
 npm install react-bootstrap 
 <!-- It's necessary for moving between sections -->
 npm install react-scroll
+<!-- to use material UI-->
+npm install @material-ui/core

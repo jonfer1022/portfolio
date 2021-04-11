@@ -1,9 +1,10 @@
 import React from 'react';
-import './styles/home.scss';
+import './styles/aboutMe.scss';
 
 function AboutMe() {
   return(
     <div id="about_me">
+      <p className="section-title">Acerca de mi.</p>
       <div className="presentation-div">
         <h1 className="presentation-text">
           !HOLA!<br/>

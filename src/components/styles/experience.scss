@@ -1,5 +1,16 @@
 #experience{
-  // border: solid;
   width: 85%;
   margin: auto;
+}
+
+#experience ul {
+  list-style: none; /* Quitamos los marcadores */
+  padding: 0; /* Quitamos el padding por defecto de la lista */
+  margin-left: 10px; /* Separamos la lista de la izquierda */
+}
+  
+#experience li::before { /* Añadimos contenido antes de cada elemento de la lista */
+  content: "\2B9E"; /* Insertamos el marcador */
+  padding-right: 8px; /* Establecemos el espacio entre las viñetas y el list item */
+  color: #20aa2d; /* Coloreamos la viñeta */
 }

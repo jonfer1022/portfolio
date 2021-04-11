@@ -1,9 +1,10 @@
 import React from 'react';
-import './styles/home.scss';
+import './styles/contactMe.scss';
 
 function ContactMe() {
   return(
     <div id="contact_me">
+      <p className="section-title">Contacto</p>
       <div className="presentation-div">
         <h1 className="presentation-text">
           !HOLA!<br/>

@@ -5,7 +5,6 @@ import About_me from './AboutMe';
 import Education from './Education';
 import ContactMe from './ContactMe';
 import Experience from './Experience';
-// import { Image } from 'react-bootstrap';
 
 function App(){
   return(
@@ -14,8 +13,8 @@ function App(){
       <Home />
       <About_me />
       <Education />
-      <ContactMe />
       <Experience />
+      <ContactMe />
     </Fragment>
   )
 }

@@ -5,7 +5,7 @@ import Icon from '@mdi/react';
 import { mdiHomeCircleOutline, mdiAccount, mdiSchoolOutline, mdiCardAccountMail, mdiSitemap } from '@mdi/js';
 import Scroll from 'react-scroll';
 import './styles/navbar.scss';
-import ClickOutsideNav from './ClickOutSideNav';
+// import ClickOutsideNav from './ClickOutSideNav';
 
 function NavBar() {
 
@@ -65,7 +65,7 @@ function NavBar() {
                   About me
                 </NavText>
             </NavItem>
-            <NavItem eventKey="education" onClick={() => handleSearchPosition("education")}>
+            <NavItem eventKey="education" onClick={() => handleSearchPosition("education",20)}>
                 <NavIcon>
                   <div className="navicon">
                     <Icon path={mdiSchoolOutline}
@@ -80,23 +80,6 @@ function NavBar() {
                 </NavIcon>
                 <NavText>
                   Education
-                </NavText>
-            </NavItem>
-            <NavItem eventKey="contact-me" onClick={() => handleSearchPosition("contact_me")}>
-                <NavIcon>
-                  <div className="navicon">
-                    <Icon path={mdiCardAccountMail}
-                      title="Contact me"
-                      size={1}
-                      horizontal
-                      vertical
-                      rotate={180}
-                      color="white"
-                    />
-                  </div>
-                </NavIcon>
-                <NavText>
-                  Contact me
                 </NavText>
             </NavItem>
             <NavItem eventKey="experience" onClick={() => handleSearchPosition("experience")}>
@@ -114,6 +97,23 @@ function NavBar() {
                 </NavIcon>
                 <NavText>
                   Experience
+                </NavText>
+            </NavItem>
+            <NavItem eventKey="contact-me" onClick={() => handleSearchPosition("contact_me")}>
+                <NavIcon>
+                  <div className="navicon">
+                    <Icon path={mdiCardAccountMail}
+                      title="Contact me"
+                      size={1}
+                      horizontal
+                      vertical
+                      rotate={180}
+                      color="white"
+                    />
+                  </div>
+                </NavIcon>
+                <NavText>
+                  Contact me
                 </NavText>
             </NavItem>
             {/* <NavItem eventKey="charts">

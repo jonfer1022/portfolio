@@ -1,20 +1,30 @@
-import React from 'react';
-import './styles/home.scss';
+import React, { Fragment } from 'react';
+import './styles/education.scss';
+import { Card, CardActions, CardContent} from '@material-ui/core';
+import { education } from '../data/education.json';
 
 function Education() {
+
+  // console.log(education);
+
   return(
-    <div id="education">
-      <div className="presentation-div">
-        <h1 className="presentation-text">
-          !HOLA!<br/>
-          Soy Jonathan Amaya.<br/>
-          Software Developer
-        </h1>
+    <Fragment>
+      <div id="education">
+        <p className="section-title">Educación</p>
+        {education.map( reg =>(
+          <Card
+            className = "card-main-ed" 
+            variant="outlined"
+          >
+            <CardContent>
+              <p className="title"><strong>Instituto:</strong> {reg.academia}</p>
+              <p className="career"><strong>Profesión:</strong> {reg.career}</p>
+              <p className="range">{reg.range}</p>
+            </CardContent>
+          </Card>
+        ))}
       </div>
-      <div className="presentation-img">
-        <img src="https://cdn0.iconfinder.com/data/icons/team-and-management-glyph/160/coding-team-512.png" />
-      </div>
-    </div>
+    </Fragment>
   )
 }
 

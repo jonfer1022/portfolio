@@ -1,0 +1,22 @@
+{
+  "education":[
+    {
+      "id": 1,
+      "academia": "Universidad Distrital Francisco José De Caldas",
+      "range": "2016-2018",
+      "career": "Ingeniero en electrónica con énfasis en Control"
+    },
+    {
+      "id": 2,
+      "academia": "Universidad Distrital Francisco José De Caldas",
+      "range": "2011-2016",
+      "career": "Tecnólogo en electrónica"
+    },
+    {
+      "id": 3,
+      "academia": "INEM Franciso de Paula Santander",
+      "range": "2004-2009",
+      "career": "Bachillerato énfasis y ciencias y matemáticas"
+    }
+  ]
+}
