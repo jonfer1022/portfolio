@@ -1,0 +1,28 @@
+{
+  "skills":{
+    "frontend":[
+      {
+        "id": "html",
+        "src": ""
+      },
+      {
+        "id": "jsx",
+        "src": ""
+      },
+      {
+        "id": "css",
+        "src": ""
+      },
+      {
+        "id": "sass",
+        "src": ""
+      }
+    ],
+    "backend":[
+      {
+        "id": "html",
+        "src": ""
+      }
+    ]
+  }
+}

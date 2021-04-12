@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import SideNav, { /*Toggle, Nav,*/ NavItem, NavIcon, NavText} from '@trendmicro/react-sidenav';
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 import Icon from '@mdi/react';
-import { mdiHomeCircleOutline, mdiAccount, mdiSchoolOutline, mdiCardAccountMail, mdiSitemap } from '@mdi/js';
+import { mdiHomeCircleOutline, mdiAccount, mdiSchoolOutline, mdiCardAccountMail, mdiSitemap, mdiBullseyeArrow } from '@mdi/js';
 import Scroll from 'react-scroll';
 import './styles/navbar.scss';
 // import ClickOutsideNav from './ClickOutSideNav';
@@ -80,6 +80,23 @@ function NavBar() {
                 </NavIcon>
                 <NavText>
                   Education
+                </NavText>
+            </NavItem>
+            <NavItem eventKey="skills" onClick={() => handleSearchPosition("skills",20)}>
+                <NavIcon>
+                  <div className="navicon">
+                    <Icon path={mdiBullseyeArrow}
+                      title="Skills"
+                      size={1}
+                      horizontal
+                      vertical
+                      rotate={180}
+                      color="white"
+                    />
+                  </div>
+                </NavIcon>
+                <NavText>
+                  Skills
                 </NavText>
             </NavItem>
             <NavItem eventKey="experience" onClick={() => handleSearchPosition("experience")}>

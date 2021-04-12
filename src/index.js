@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
 // import App from './App';
+// global.pathRoot = path => require(`${__dirname}/${path}`);
+
+// var pathRoot = path => require(`${__dirname}/${path}`);
 
 ReactDOM.render(
   <React.StrictMode>

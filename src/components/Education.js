@@ -17,7 +17,7 @@ function Education() {
             variant="outlined"
           >
             <CardContent>
-              <p className="title"><strong>Instituto:</strong> {reg.academia}</p>
+              <p className="title"><strong>Academia:</strong> {reg.academia}</p>
               <p className="career"><strong>Profesión:</strong> {reg.career}</p>
               <p className="range">{reg.range}</p>
             </CardContent>

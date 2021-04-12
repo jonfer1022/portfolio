@@ -1,0 +1,25 @@
+#skills{
+	width: 85%;
+	margin: auto;
+	justify-content: center;
+}
+
+.card-skill{
+	width: 50%;
+	background-color: whitesmoke;
+	border-radius: 9px;
+}
+
+.card-skill .title{
+	font-size: 2rem;
+	text-align: center;
+	width: 98%;
+	margin: auto;
+	padding: 2% 0 2% 0;
+	border-bottom: 2px solid #20aa2d;
+}
+
+.skill-img{
+	width: 30%;
+	display: inline-block;
+}
