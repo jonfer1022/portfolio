@@ -65,7 +65,7 @@ function NavBar() {
                   About me
                 </NavText>
             </NavItem>
-            <NavItem eventKey="education" onClick={() => handleSearchPosition("education",20)}>
+            <NavItem eventKey="education" onClick={() => handleSearchPosition("education")}>
                 <NavIcon>
                   <div className="navicon">
                     <Icon path={mdiSchoolOutline}
@@ -82,7 +82,7 @@ function NavBar() {
                   Education
                 </NavText>
             </NavItem>
-            <NavItem eventKey="skills" onClick={() => handleSearchPosition("skills",20)}>
+            <NavItem eventKey="skills" onClick={() => handleSearchPosition("skills")}>
                 <NavIcon>
                   <div className="navicon">
                     <Icon path={mdiBullseyeArrow}

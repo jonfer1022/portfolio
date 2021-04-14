@@ -1,27 +1,61 @@
 {
   "skills":{
-    "frontend":[
+    "Frontend":[
       {
-        "id": "html",
-        "src": ""
+        "id": "React",
+        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/Reactjs.png"
       },
       {
-        "id": "jsx",
-        "src": ""
+        "id": "Redux",
+        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/Redux.png"
       },
       {
-        "id": "css",
-        "src": ""
+        "id": "Axios",
+        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/Axios.png"
       },
       {
-        "id": "sass",
-        "src": ""
+        "id": "Html5",
+        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/html_logo.png"
+      },
+      {
+        "id": "Css",
+        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/Css.png"
       }
     ],
-    "backend":[
+    "Backend":[
       {
-        "id": "html",
-        "src": ""
+        "id": "Node.Js",
+        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/NodeJs.png"
+      },
+      {
+        "id": "Express.Js",
+        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/ExpressJs.png"
+      },
+      {
+        "id": "DB2-ibm",
+        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/db2.png"
+      },
+      {
+        "id": "Mysql",
+        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/MySql.png"
+      }
+    ],
+    "Otros":[
+      {
+        "id": "VS Code",
+        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/Vscode.png"
+      },
+      {
+        "id": "Git",
+        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/git.png"
+      },
+      {
+        "id": "GitHub",
+        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/Github.png"
+      },
+      {
+        "id": "AWS",
+        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/Aws.png"
       }
     ]
   }

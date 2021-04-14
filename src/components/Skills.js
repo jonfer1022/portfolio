@@ -1,23 +1,27 @@
 import React from 'react';
 import './styles/skills.scss';
 import img from "../images/html_logo.png";
-import skills from '../data/skills.json'
+import { skills } from '../data/skills.json'
 
 function Skills() {
 
-  console.log(skills);
+  let skill_key = Object.keys(skills);
+  let skill_value = Object.values(skills);
 
   return(
     <div id="skills">
       <p className="section-title">Habilidades</p>
-      <div className="card-skill">
-        <div className="title">
-          FRONTEND
+      {skill_key.map( (reg,i) => (
+        <div className="card-skill">
+          <div className="title">{reg}</div>
+            {skill_value[i].map( value => (
+              <div className="skill-img-div">
+                <img className="skill-img" src={value.src||img} title={value.id}/>
+                <div className="skill-name">{value.id}</div>
+              </div>
+            ))}
         </div>
-          <img className="skill-img" src={img}/>
-          <img className="skill-img" src={img}/>
-          <img className="skill-img" src={img}/>
-      </div>
+      ))}
     </div>
   )
 }
