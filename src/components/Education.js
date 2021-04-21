@@ -1,11 +1,9 @@
 import React, { Fragment } from 'react';
 import './styles/education.scss';
-import { Card, CardActions, CardContent} from '@material-ui/core';
+import { Card, CardContent} from '@material-ui/core';
 import { education } from '../data/education.json';
 
 function Education() {
-
-  // console.log(education);
 
   return(
     <Fragment>
@@ -13,6 +11,7 @@ function Education() {
         <p className="section-title">Educación</p>
         {education.map( reg =>(
           <Card
+            id={`card-ed-${reg.id}`}
             className = "card-main-ed" 
             variant="outlined"
           >

@@ -12,7 +12,7 @@ function Skills() {
     <div id="skills">
       <p className="section-title">Habilidades</p>
       {skill_key.map( (reg,i) => (
-        <div className="card-skill">
+        <div id={`${reg}`} className="card-skill">
           <div className="title">{reg}</div>
             {skill_value[i].map( value => (
               <div className="skill-img-div">

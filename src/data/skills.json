@@ -18,18 +18,14 @@
         "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/html_logo.png"
       },
       {
-        "id": "Css",
+        "id": "Css/Sass",
         "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/Css.png"
       }
     ],
     "Backend":[
       {
-        "id": "Node.Js",
-        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/NodeJs.png"
-      },
-      {
         "id": "Express.Js",
-        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/ExpressJs.png"
+        "src": "https://raw.githubusercontent.com/jonfer1022/portfolio/main/src/images/NodeJsExpress.png"
       },
       {
         "id": "DB2-ibm",

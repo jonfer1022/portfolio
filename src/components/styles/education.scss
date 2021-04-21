@@ -11,7 +11,13 @@
   margin-top: 2%;
   width: 47%;
   background-color: whitesmoke !important;
+  opacity: 0;
+  transform: scale(0.3);
+  // animation: 1.8s appear-card-ed 1;
+  // animation-fill-mode: forwards;
 }
+
+
 
 .card-main-ed .title{
   margin: 0%;
@@ -27,4 +33,14 @@
   margin: 0%;
   font-style: italic;
   text-align: center;
+}
+
+@keyframes appear-card-ed {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		transform: scale(1);
+		opacity: 1;
+	}
 }

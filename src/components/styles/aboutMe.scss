@@ -3,3 +3,45 @@
 	margin: auto;
 	justify-content: center;
 }
+
+.about-img{
+	display: inline-block;
+	width: 30%;
+	height: 300px;
+	// text-align: center;
+	vertical-align: top;
+	// background-color: white;
+}
+
+.about-img img{
+	width: 60%;
+	opacity: 0.8;
+	margin: 20% 0 0% 20%
+}
+
+.about-text{
+	display: inline-block;
+	width: 68%;
+}
+
+.about-text p{
+	background-color: whitesmoke;
+	padding: 2%;
+	border-radius: 9px;
+	font-size: 1.1rem;
+	text-align: justify;
+	transform: translateX(110px);
+	opacity: 0;
+	// animation: 1.7s appear 1;
+	// animation-fill-mode: forwards;
+}
+
+@keyframes appear-about-text {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}

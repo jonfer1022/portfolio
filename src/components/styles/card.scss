@@ -4,6 +4,9 @@
   width: 85%;
   background-color: #c7c8c8;
   border-radius: 8px;
+  opacity: 0;
+  // animation: 1.8s appear-card-ex 1;
+  // animation-fill-mode: forwards;
 }
 
 .header{
@@ -24,9 +27,18 @@
   text-align: justify;
 }
 
-
 .footer{
   text-align: center;
   padding: 1% 0 1% 0;
   font-size: 1.15rem;
+}
+
+@keyframes appear-card-ex {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+    transform: translateX(0px);
+	}
 }
