@@ -5,6 +5,11 @@ import ReCAPTCHA from "react-google-recaptcha";
 import axios from "axios";
 import { Alert, AlertTitle } from '@material-ui/lab';
 import Snackbar from '@material-ui/core/Snackbar';
+import { mdiEmailOutline } from '@mdi/js';
+import Icon from '@mdi/react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function ContactMe() {
 
@@ -96,8 +101,37 @@ function ContactMe() {
             </Alert> : null
           }
         </div>
-      </Snackbar>  
+      </Snackbar>
       <p className="section-title">Contacto</p>
+      <div className="icon-main">
+        <div className="email">
+          <a className="icon-email">
+            <div className="icon-float" />
+            <FontAwesomeIcon icon={faEnvelope} size="2x" className="icon-contact"/>
+          </a>
+          <a className="text" href="mailto:jonathanfab92@gmail.com">
+            jonathanfab92@gmail.com
+          </a>  
+        </div>
+        <div className="github">
+          <a className="icon-github" href="https://github.com/jonfer1022" target="_blank">
+            <div className="icon-float" />
+            <FontAwesomeIcon icon={faGithub} size="2x" className="icon-contact"/>
+          </a>
+          <a className="text" href="https://github.com/jonfer1022" target="_blank">
+            github.com/jonfer1022
+          </a>
+        </div>
+        <div className="linkendln">
+          <a className="icon-linkedln" href="https://www.linkedin.com/in/jonathan-fernando-amaya-benavides-472a4517b/" target="_blank">
+            <div className="icon-float" />
+            <FontAwesomeIcon icon={faLinkedinIn} size="2x" className="icon-contact"/>
+          </a>
+          <a className="text" href="https://www.linkedin.com/in/jonathan-fernando-amaya-benavides-472a4517b/" target="_blank">
+            linkedin.com/in/jonathan-fernando-amaya-benavides
+          </a>
+        </div>
+      </div>
       <div className="contact-main">
         <div className="contact-div">
           <input value={name} type="text" placeholder="Name" required="required" className="contact-name" onChange={(e) => setName(e.target.value)}/>

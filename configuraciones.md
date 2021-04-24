@@ -18,3 +18,8 @@ npm i react-google-recaptcha
 npm install axios
 <!-- to use material UI lab-->
 npm i @material-ui/lab
+<!--  -->
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
+npm install --save @fortawesome/free-brands-svg-icons

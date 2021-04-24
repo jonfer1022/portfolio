@@ -80,3 +80,71 @@
 .contact-recaptcha{
 	text-align: -webkit-center;
 }
+
+.icon-main{
+	margin-bottom: 3%;
+	margin-top: 2%;
+	text-align: center;
+}
+
+.icon-email, .icon-github, .icon-linkedln{
+	background-color: whitesmoke;
+	width: 5%;
+	height: 60px;
+	text-align: center;
+	// border: 3px solid #20aa2d;
+	border-radius: 50%;
+	cursor: pointer;
+	margin-bottom: 1%;
+	display: inline-block;
+}
+
+#contact_me svg{
+	margin: auto;
+	display: inline-block;
+}
+
+//Truco aplicado para centrar otro elemento hijo
+.icon-float{
+	float: left;
+	height: 50%;
+	width: 100%;
+	margin-bottom: -30%;
+}	
+
+// .icon-email:hover path{
+// 	// color: #28e138;
+// 	color: #20aa2d;
+// }
+
+// .icon-github:hover path{
+// 	color: #20aa2d;
+// }
+
+// .icon-linkedln:hover path{
+// 	color: #20aa2d;
+// }
+
+.icon-main .email, .icon-main .github, .icon-main .linkendln{
+	padding-left: 2.5%;
+	display: block;
+}
+
+.icon-main .text {
+	margin: 0px 3% 1.5% 6%;
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+	width: 75%;
+	background-color: whitesmoke;
+	border-radius: 2rem;
+	padding: 1%;
+	text-decoration: none;
+	color: black;
+	font-size: 1.2rem;
+}
+
+.icon-linkedln, .icon-github{
+	text-decoration: none;
+	color: black;
+}
