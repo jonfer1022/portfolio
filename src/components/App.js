@@ -6,6 +6,7 @@ import Education from './Education';
 import ContactMe from './ContactMe';
 import Experience from './Experience';
 import Skills from './Skills';
+import Projects from './Projects';
 
 function App(){
   return(
@@ -16,6 +17,7 @@ function App(){
       <Education />
       <Skills />
       <Experience />
+      <Projects />
       <ContactMe />
     </Fragment>
   )

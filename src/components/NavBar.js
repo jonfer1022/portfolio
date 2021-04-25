@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import SideNav, { /*Toggle, Nav,*/ NavItem, NavIcon, NavText} from '@trendmicro/react-sidenav';
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 import Icon from '@mdi/react';
-import { mdiHomeCircleOutline, mdiAccount, mdiSchoolOutline, mdiCardAccountMail, mdiSitemap, mdiBullseyeArrow } from '@mdi/js';
+import { mdiHomeCircleOutline, mdiAccount, mdiSchoolOutline, mdiCardAccountMail, mdiSitemap, mdiBullseyeArrow, mdiBriefcaseCheckOutline } from '@mdi/js';
 import Scroll from 'react-scroll';
 import './styles/navbar.scss';
 // import ClickOutsideNav from './ClickOutSideNav';
@@ -114,6 +114,23 @@ function NavBar() {
                 </NavIcon>
                 <NavText>
                   Experience
+                </NavText>
+            </NavItem>
+            <NavItem eventKey="projects" onClick={() => handleSearchPosition("projects")}>
+                <NavIcon>
+                  <div className="navicon">
+                    <Icon path={mdiBriefcaseCheckOutline}
+                      title="Projects"
+                      size={1}
+                      horizontal
+                      vertical
+                      rotate={180}
+                      color="white"
+                    />
+                  </div>
+                </NavIcon>
+                <NavText>
+                  Projects
                 </NavText>
             </NavItem>
             <NavItem eventKey="contact-me" onClick={() => handleSearchPosition("contact_me")}>

@@ -5,8 +5,6 @@ import ReCAPTCHA from "react-google-recaptcha";
 import axios from "axios";
 import { Alert, AlertTitle } from '@material-ui/lab';
 import Snackbar from '@material-ui/core/Snackbar';
-import { mdiEmailOutline } from '@mdi/js';
-import Icon from '@mdi/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -29,6 +27,8 @@ function ContactMe() {
   const email_template = process.env.REACT_APP_EMAIL_TEMPLATE_ID;
   const email_user_id = process.env.REACT_APP_EMAIL_USER_ID;
   const siteKey = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
+
+  console.log(service_email, email_template, email_user_id, siteKey);
 
   const sendEmail = () => {
 
@@ -105,7 +105,7 @@ function ContactMe() {
       <p className="section-title">Contacto</p>
       <div className="icon-main">
         <div className="email">
-          <a className="icon-email">
+          <a className="icon-email" href="mailto:jonathanfab92@gmail.com">
             <div className="icon-float" />
             <FontAwesomeIcon icon={faEnvelope} size="2x" className="icon-contact"/>
           </a>
