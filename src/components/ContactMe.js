@@ -29,11 +29,9 @@ function ContactMe() {
   const siteKey = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
   const domain = process.env.REACT_APP_DOMAIN_BACKEND || "http://localhost:3001/";
 
-  console.log(service_email, email_template, email_user_id, siteKey, domain);
-
   const sendEmail = () => {
 
-    axios.post(`${domain}`,{token})
+    axios.post(`${domain}/token`,{token})
     .then(resp =>{
       // console.log(resp.data);
       if(resp.data.error){
